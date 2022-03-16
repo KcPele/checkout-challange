@@ -1,0 +1,160 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>checkout</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <script
+      src="https://kit.fontawesome.com/6c530a0838.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Checkout</h1>
+    </header>
+    <main class="container">
+      <div class="items--container">
+        <div class="content">
+          <div>
+            <div class="items--1">
+              <img class="photo" src="photo1.png" alt="image of a bag" />
+              <div class="item--list">
+                <div>
+                  <h4>Vintage Backbag</h4>
+                  <p><span class="orange--text">$54.99 </span>$94.99</p>
+                </div>
+                <div class="increment--items">
+                  <div>-</div>
+                  <p>1</p>
+                  <div>+</div>
+                </div>
+              </div>
+            </div>
+            <div class="items--1">
+              <img class="photo" src="photo2.png" alt="image of a show" />
+              <div class="item--list">
+                <div>
+                  <h4>Levi Shoes</h4>
+                  <p><span class="orange--text">$74.99 </span>$124.99</p>
+                </div>
+                <div class="increment--items">
+                  <div>-</div>
+                  <p>1</p>
+                  <div>+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="total">
+            <hr />
+            <div class="total--items">
+              <h3>Shipping</h3>
+              <p>$19</p>
+            </div>
+            <hr />
+            <div class="total--items">
+              <h3>Total</h3>
+              <p>$148.98</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form--container">
+        <div class="form--header">
+          <h3>Contact information</h3>
+          <form>
+            <label for="email">E-mail</label>
+            <div class="input-icons">
+              <i class="fa-solid fa-envelope icon"></i>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Enter your email..."
+              />
+            </div>
+            <label for="phone">Phone</label>
+            <div class="input-icons">
+              <i class="fa-solid fa-phone icon"></i>
+              <input
+                type="number"
+                name="phone"
+                id="phone"
+                placeholder="Enter your phone..."
+              />
+            </div>
+          </form>
+        </div>
+        <div class="form--header">
+          <h3>Shipping address</h3>
+          <form>
+            <label for="full-name">Full name</label>
+            <div class="input-icons">
+              <i class="fa-solid fa-user icon"></i>
+              <input id="full-name name="name" type="text" placeholder="Rodney
+              Cotton" />
+            </div>
+            <label for="address">Address</label>
+            <div class="input-icons">
+              <i class="fa-solid fa-house icon"></i>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="Your address..."
+              />
+            </div>
+            <label for="city">City</label>
+            <div class="input-icons">
+              <i class="fa-solid fa-city icon"></i>
+              <input
+                type="text"
+                name="city"
+                id="city"
+                placeholder="Your city..."
+              />
+            </div>
+            <div class="form--location">
+              <div class="locate">
+                <label for="country">Country</label>
+                <div class="input-icons">
+                  <i class="fa-solid fa-earth-americas icon"></i>
+                  <input
+                    type="text"
+                    name="country"
+                    id="country"
+                    placeholder="Your country..."
+                  />
+                </div>
+              </div>
+              <div class="locate">
+                <label for="postal-code">Postal code</label>
+                <div class="input-icons">
+                  <i class="fa-solid fa-envelopes-bulk icon"></i>
+                  <input
+                    type="text"
+                    name="postal-code"
+                    id="postal-code"
+                    placeholder="Your postal-code..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="checkbox">
+              <div type="checkbox"></div>
+              <span>Save this information for next time</span>
+            </div>
+            <button>Continue</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>created by Kc pele - devChallenges.io</footer>
+  </body>
+</html>
